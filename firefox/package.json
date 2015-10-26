@@ -1,0 +1,16 @@
+{
+  "title": "datraolat",
+  "name": "datraolat",
+  "version": "0.1.0",
+  "description": "Zabalerarik gabeko zuriuneak txertatzeko gehigarria",
+  "main": "index.js",
+  "author": "iametza interaktiboa",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPLv3",
+  "keywords": [
+    "jetpack"
+  ]
+}
