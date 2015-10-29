@@ -1,6 +1,6 @@
 # \#datraolat
 
-Firefox eta Chrome nabigatzaileetarako #datraolat gehigarriak traola eta erabiltzaile-izenei kasu marka eta postposizioak modu naturalago batean gehitzeko aukera ematen du. 
+Firefox, Chrome eta Safari nabigatzaileetarako #datraolat gehigarriak traola eta erabiltzaile-izenei kasu marka eta postposizioak modu naturalago batean gehitzeko aukera ematen du. 
 
 ## Nola instalatu eta erabili
 
