@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>iametza interaktiboa</string>
+	<key>Builder Version</key>
+	<string>10600.2.5</string>
+	<key>CFBundleDisplayName</key>
+	<string>datraolat</string>
+	<key>CFBundleIdentifier</key>
+	<string>eus.iametza.datraolat</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>txertatuZuriunea</string>
+				<key>Identifier</key>
+				<string>datraolat-botoia</string>
+				<key>Image</key>
+				<string>ikonoa-16.png</string>
+				<key>Label</key>
+				<string>Txertatu zuriune ikustezina</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>txertatu_zuriunea.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Zabalerarik gabeko zuriuneak txertatzeko gehigarria.</string>
+	<key>DeveloperIdentifier</key>
+	<string>8L92CT99TY</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://datraolat.iametza.eus/datraolat.plist</string>
+	<key>Website</key>
+	<string>http://www.iametza.eus/euskara/bloga/datraolatekin-traolak-eta-erabiltzaile-izenak-naturalago</string>
+</dict>
+</plist>
