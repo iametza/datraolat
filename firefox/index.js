@@ -16,6 +16,6 @@ var button = buttons.ActionButton({
 
 function handleClick(state) {
     require("sdk/tabs").activeTab.attach({
-        contentScriptFile: self.data.url("txertatu-zuriunea.js")
+        contentScriptFile: [self.data.url("insert-text-at-cursor.js"), self.data.url("txertatu-zuriunea.js")]
     });
 }
