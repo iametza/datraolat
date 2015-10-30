@@ -27,16 +27,17 @@ function insertTextAtCursor(text) {
     // https://tweetdeck.twitter.com
     // https://github.com
     } else {
-        // Hautapen bat badago...
         if (el.selectionStart || el.selectionStart === 0) {
-            // Hautapena text-ekin ordezkatuko dugu.
+            // Hautapenik balego text-ekin ordezkatuko dugu, bestela text txertatuko dugu besterik gabe.
             startPos = el.selectionStart;
             endPos = el.selectionEnd;
             el.value = el.value.substring(0, startPos) + text + el.value.substring(endPos, el.value.length);
+            // Kurtsorearen kokapena zuzendu, bestela beti amaieran agertzen zen.
+            el.setSelectionRange(startPos + text.length, startPos + text.length);
         } else {
-            // Hautapenik ez dagoenez bukaeran gehituko dugu.
             el.value += text;
-        }
+         }
+
     }
 }
 
