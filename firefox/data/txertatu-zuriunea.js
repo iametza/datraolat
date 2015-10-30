@@ -20,6 +20,8 @@ function insertTextAtCursor(text) {
                 sel.removeAllRanges();
                 sel.addRange(range);
             }
+        } else if (document.selection && document.selection.createRange) {
+            document.selection.createRange().text = text;
         }
     // https://tweetdeck.twitter.com
     // https://github.com
