@@ -8,6 +8,7 @@ function insertTextAtCursor(text) {
 
     // https://twitter.com
     if (el.tagName === "DIV") {
+        // http://stackoverflow.com/a/2925633/2855012
         if (window.getSelection) {
             sel = window.getSelection();
 
