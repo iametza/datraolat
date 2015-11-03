@@ -26,6 +26,9 @@ function insertTextAtCursor(text) {
         }
     // https://tweetdeck.twitter.com
     // https://github.com
+    // https://gitlab.com/
+    // https://bitbucket.org/
+    // ...
     } else {
         if (el.selectionStart || el.selectionStart === 0) {
             // Hautapenik balego text-ekin ordezkatuko dugu, bestela text txertatuko dugu besterik gabe.
