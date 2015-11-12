@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>eus.iametza.datraolat</string>
+       <key>Developer Identifier</key>
+       <string>8L92CT99TY</string>
+       <key>CFBundleVersion</key>
+       <string>2</string>
+       <key>CFBundleShortVersionString</key>
+       <string>0.2.0</string>
+       <key>URL</key>
+       <string>http://datraolat.iametza.eus/datraolat.safariextz</string>
+     </dict>
+   </array>
+</dict>
+</plist>
