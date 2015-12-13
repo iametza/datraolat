@@ -12,5 +12,8 @@
   "license": "GPLv3",
   "keywords": [
     "jetpack"
-  ]
+  ],
+  "permissions": {
+    "private-browsing": true
+  }
 }
