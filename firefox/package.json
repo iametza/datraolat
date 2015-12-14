@@ -1,8 +1,8 @@
 {
   "title": "datraolat",
   "name": "datraolat",
-  "version": "0.2.0",
-  "description": "Zabalerarik gabeko zuriuneak txertatzeko gehigarria",
+  "version": "0.3.0",
+  "description": "Zero zabalerako zuriuneak txertatzeko gehigarria",
   "main": "index.js",
   "author": "iametza interaktiboa",
   "engines": {
