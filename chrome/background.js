@@ -19,6 +19,6 @@ function executeScripts(tabId, injectDetailsArray)
 chrome.browserAction.onClicked.addListener(function (tab) {
     executeScripts(null, [
         { file: "insert-text-at-cursor.js" },
-        { file: "txertatu-zuriunea.js" }
+        { file: "insert-zero-width-space.js" }
     ]);
 });

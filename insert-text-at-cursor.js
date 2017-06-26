@@ -30,13 +30,17 @@ function insertTextAtCursor(text) {
     // https://bitbucket.org/
     // ...
     } else {
+        // If there is a selection we will substitute it with the content of the variable text
         if (el.selectionStart || el.selectionStart === 0) {
-            // Hautapenik balego text-ekin ordezkatuko dugu, bestela text txertatuko dugu besterik gabe.
+
             startPos = el.selectionStart;
             endPos = el.selectionEnd;
             el.value = el.value.substring(0, startPos) + text + el.value.substring(endPos, el.value.length);
-            // Kurtsorearen kokapena zuzendu, bestela beti amaieran agertzen zen.
+
+            // Fix the cursor position, else it appears at the end.
             el.setSelectionRange(startPos + text.length, startPos + text.length);
+
+        // Else insert the content of the variable text
         } else {
             el.value += text;
          }
